@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_index.css">
+</head>
+
+<body>
+<main>
+    
+	<div class="logo">
+		<img src="/img/benibanabekkan_nihonbashi.jpg" alt="">
+		
+		<div class="logo_after">
+			<h1>美味しい日記</h1>
+			<div class="recurry">
+				<button type=“button” onclick="location.href='curry.html'">
+						過去日記表示
+				</button>
+			</div>
+			<div class="day">
+					<p>訪問日</p>
+			</div>    
+			
+			<div class="date">
+					<input class="date_class" type="date" id="day">
+			</div>
+			<div class="shop_name">
+				<p>利用店舗</p>
+				<input class="sname" type="text" id="ssname" />
+			</div>
+			<div class="memo">
+				<p>MEMO</p>
+				<textarea id="text" cols="50" rows="10"></textarea>
+			</div>
+
+			<div class="upPic">	
+				<p>掲載写真</p>
+					<!-- <form action="curry.html" method="post" enctype="multipart/form-data" ></form> -->
+				<input type="file" id="uploadButton">
+			</div>
+
+			<div class="pic_send">
+				<a href="curry.html" class="pic_send_curry">
+					<input type="submit" id="pic2_send">
+				</a>
+			</div>
+			<div class="clear">
+				<input type="submit" value="全てclear">
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+
+    </body>
+    </html>
+</body>
+</html>

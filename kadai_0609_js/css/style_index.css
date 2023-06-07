@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    width:100%;
+    height:auto;
+}
+
+.logo{
+    padding-top: 2a0px;
+    position: relative;
+    background-color:whitesmoke;
+    display:inline-block;
+    width:100%;
+    height:auto;
+}
+
+.logo_after{
+    color:black;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+/* 写真を透過する */
+.logo img{
+    opacity: 0.5;
+    display:block;
+    width: 100%;
+}
+
+button{
+    font-size: 20px;
+    flex: auto;
+    float: right;
+}
+
+h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size:100px;    
+    font-weight: bold;
+    color: orange;;
+}
+
+.recurry{
+    padding-top:10px;
+    padding-bottom:30px
+}
+.day {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 25px;   
+}
+
+.date{
+    font-size: 30px;
+}
+
+.date_class{
+    font-size: 18px;
+    width: 150px;
+    height:30px;
+    float: center;
+}
+
+.shop_name{
+    padding-top:20px;
+    padding-bottom:18px;
+    font-size: 25px;
+}
+
+.sname{
+    padding-top:20px;
+    padding-bottom:5px;
+    width:200px;
+    height: 5px;
+    font-size: 20px;
+}
+.memo{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: 23px;
+}
+
+#text{
+    padding:10px;
+    font-size: 20px;
+}
+
+.upPic{
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-size: 20px;
+}
+
+.pic_send{
+    padding-top:20px;
+    padding-top: 0px;
+}
+
+.clear{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
